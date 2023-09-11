@@ -70,6 +70,7 @@ img, picture {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
   padding: 2.5rem 2rem 2rem;
 }
 
@@ -85,16 +86,11 @@ img, picture {
   color: var(--clr-accent-400);
 }
 
-.card-description {
-  margin-top: 1rem;
-}
-
 .stats-list {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
   width: 100%;
-  margin-top: 2rem;
   list-style-type: none;
   text-align: center;
 }
@@ -123,18 +119,12 @@ img, picture {
   }
 
   .card-content {
-    justify-content: flex-start;
-    align-items: flex-start;
     flex: 1;
     padding: 4.5rem;
   }
 
   .card-title {
     font-size: 2.2rem;
-  }
-  
-  .card-description {
-    margin: 1.5rem 0;
   }
   
   .stats-list {
