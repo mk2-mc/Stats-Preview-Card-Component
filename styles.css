@@ -62,7 +62,7 @@ img, picture {
   min-height: 100%;
   object-fit: cover;
   mix-blend-mode: multiply;
-  filter: contrast(60%) brightness(130%);
+  opacity: 75%;
 }
 
 .card-content {
